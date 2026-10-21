@@ -1,0 +1,4 @@
+interface:
+  display_name: "드레스 피팅 근거 비교"
+  short_description: "스케치와 피팅 사진, 외부 후보를 출처와 검토 상태로 연결"
+  default_prompt: "$dress-evidence-review 스케치와 실제 피팅 사진을 업체·순서별로 연결하고 두 사람 의견과 외부 후보를 근거별로 비교해줘."
