@@ -6,7 +6,7 @@
 
 ## 설치
 
-ZIP을 풀고 `dress-evidence-review` 폴더를 자신의 Codex 스킬 폴더에 복사합니다. 기본 위치는 `~/.codex/skills/`입니다. 같은 이름의 폴더가 있으면 먼저 내용을 비교합니다. 스킬 목록에 나타나지 않으면 새 대화에서 확인합니다.
+ZIP을 풀고 `dress-evidence-review` 폴더를 자신의 Codex 스킬 폴더에 복사합니다. 기본 위치는 현재 Codex 문서 기준 `~/.agents/skills/`이고, 예전 버전은 `~/.codex/skills/`입니다. 같은 이름의 폴더가 있으면 먼저 내용을 비교합니다. 스킬 목록에 나타나지 않으면 새 대화에서 확인합니다.
 
 ## 호출
 

@@ -36,10 +36,10 @@
 
 ## 설치
 
-저장소를 내려받은 뒤 `skills/dress-evidence-review` 폴더를 자신의 Codex 스킬 디렉터리에 복사합니다. 기본 위치는 `~/.codex/skills/`입니다. `CODEX_HOME`을 별도로 설정했다면 해당 디렉터리의 `skills/`를 사용합니다.
+저장소를 내려받은 뒤 `skills/dress-evidence-review` 폴더를 자신의 Codex 스킬 디렉터리에 복사합니다. 현재 Codex 문서([Build skills](https://learn.chatgpt.com/docs/build-skills), 2026년 10월 확인) 기준 사용자 스킬 위치는 `~/.agents/skills/`입니다. 예전 버전의 Codex를 쓰고 있다면 `~/.codex/skills/`(또는 `CODEX_HOME` 아래 `skills/`)에서 읽을 수 있으니, 스킬 목록에 나타나지 않으면 그쪽에 복사합니다.
 
 ```text
-~/.codex/skills/dress-evidence-review/
+~/.agents/skills/dress-evidence-review/
 ├── SKILL.md
 ├── agents/openai.yaml
 ├── references/review-records.md
@@ -107,3 +107,7 @@ python skills/dress-evidence-review/scripts/check_review.py review.json
 이 저장소에는 작업 방법, 합성 예시, 검증 코드만 포함합니다. 개인 피팅 사진, 손글씨 원본, 수집한 SNS 사진, 계정 토큰, 기존 사이트의 전체 데이터는 포함하지 않습니다. 과정 정리 글의 수치는 당시 작업 기록이며 현재 계정이나 갤러리의 실시간 수치가 아닙니다.
 
 스킬 자체는 자동 수집 프로그램이 아닙니다. 웹 수집·시각 검토·사이트 갱신에는 실행 환경의 도구와 접근 권한이 필요합니다. 로그인이나 접근 제한을 우회하지 않으며, 새 블로그·저장소에 대한 게시 권한을 부여하지 않습니다.
+
+## 라이선스
+
+[MIT License](LICENSE). 스킬·문서·검사 스크립트에 적용되며, 드레스 사진·스케치·피팅 사진 등 개인 자료와 각 업체 사진은 이 저장소에 포함하지 않습니다.
